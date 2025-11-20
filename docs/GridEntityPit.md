@@ -19,6 +19,8 @@ tags:
 [ ](#){: .reporplus .tooltip .badge }
 #### void MakeBridge ( [GridEntity](GridEntity.md) parentEntity) {: .copyable aria-label='Functions' }
 parentEntity can be `nil` to use the default texture as the bridge
+???- warning "Warning"
+    An additional unknown argument after parentEntity was added in Repentance+ that must be set or else the function will error. Setting it to 0 appears to restore functionality.
 ___
 ### Set·Ladder () {: aria-label='Functions' }
 [ ](#){: .alldlc .tooltip .badge }
